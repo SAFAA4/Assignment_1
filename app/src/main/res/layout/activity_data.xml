@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    android:layout_gravity="center"
+    tools:context=".data">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Welcom"
+            android:textColor="#ffff"
+            android:textSize="40sp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="50dp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="24sp"
+            android:layout_marginTop="66dp"
+            app:fontFamily="serif"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="#FFABFD"
+
+            />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="30sp"
+            android:textColor="#FFFF"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_of_birth"
+            android:textSize="24sp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="left"
+            app:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="#FFABFD"
+            />
+
+        <TextView
+            android:id="@+id/birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="30sp"
+            android:textColor="#FFFF"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
